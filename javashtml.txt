@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Amritpal kaur and i am student of Academy of learning career college</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>portfolio website </p>
+        <p> HTML and CSS file</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your-email@example.com</p>
+    </section>
+     <h1>Welcome to My One Page Website</h1>
+    <div class="gallery">
+        <img src="flowers.jpg" alt="Image 1" class="desktop">
+        <img src="sunshine image.jpg" alt="Image 2" class="desktop">
+        
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
+
+
